@@ -1,2 +1,2 @@
 # web-project
-btvn
+assignment: a simple online shop using fastAPI, React...
