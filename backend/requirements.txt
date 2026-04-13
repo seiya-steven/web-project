@@ -1,0 +1,16 @@
+# API
+fastapi>=0.115.0,<0.116
+uvicorn[standard]>=0.32.0,<0.33
+
+# ORM & database
+sqlalchemy>=2.0.36,<2.1
+psycopg2-binary>=2.9.10,<3
+
+# Config
+python-dotenv>=1.0.1,<2
+pydantic-settings>=2.6.0,<3
+email-validator>=2.2.0,<3
+
+# Auth (JWT + bcrypt trực tiếp — tránh xung đột passlib vs bcrypt 4.x)
+python-jose[cryptography]>=3.3.0,<4
+bcrypt>=4.0.1,<5
