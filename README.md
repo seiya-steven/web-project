@@ -5,7 +5,7 @@ assignment: a simple online shop using fastAPI, React...
 1. **clone the project**
 2. **Setup environment variables:** Copy the example file to '.env':
 	'cp .evn.example .env'
-3. **Run with Docker: **
+3. **Run with Docker:**
 	'docker compose up --build'
 
 ## Management
